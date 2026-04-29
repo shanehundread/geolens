@@ -1,0 +1,14 @@
+C:\Users\Shane\Geolens_trial\GeoLens.Api\Backend\publish\GeoLens.Api.exe
+C:\Users\Shane\Geolens_trial\GeoLens.Api\Backend\publish\publish\web.config
+C:\Users\Shane\Geolens_trial\GeoLens.Api\Backend\publish\appsettings.Development.json
+C:\Users\Shane\Geolens_trial\GeoLens.Api\Backend\publish\appsettings.json
+C:\Users\Shane\Geolens_trial\GeoLens.Api\Backend\publish\publish\appsettings.Development.json
+C:\Users\Shane\Geolens_trial\GeoLens.Api\Backend\publish\publish\appsettings.json
+C:\Users\Shane\Geolens_trial\GeoLens.Api\Backend\publish\publish\GeoLens.Api.deps.json
+C:\Users\Shane\Geolens_trial\GeoLens.Api\Backend\publish\publish\GeoLens.Api.runtimeconfig.json
+C:\Users\Shane\Geolens_trial\GeoLens.Api\Backend\publish\GeoLens.Api.dll
+C:\Users\Shane\Geolens_trial\GeoLens.Api\Backend\publish\GeoLens.Api.deps.json
+C:\Users\Shane\Geolens_trial\GeoLens.Api\Backend\publish\GeoLens.Api.runtimeconfig.json
+C:\Users\Shane\Geolens_trial\GeoLens.Api\Backend\publish\GeoLens.Api.pdb
+C:\Users\Shane\Geolens_trial\GeoLens.Api\Backend\publish\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Shane\Geolens_trial\GeoLens.Api\Backend\publish\Microsoft.OpenApi.dll

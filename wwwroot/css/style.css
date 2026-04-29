@@ -1,0 +1,251 @@
+/* =========================
+   RESET
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* =========================
+   THEME COLORS
+========================= */
+:root {
+  --bg: #ffffff;
+  --card: rgba(0,0,0,0.05);
+  --text: #111;
+  --border: rgba(0,0,0,0.1);
+  --accent: #00f0ff;
+}
+
+body.dark {
+  --bg: #020617;
+  --card: rgba(255,255,255,0.05);
+  --text: #e0e3e5;
+  --border: rgba(255,255,255,0.1);
+  --accent: #00f0ff;
+}
+
+/* =========================
+   BODY
+========================= */
+body {
+  background: var(--bg);
+  color: var(--text);
+  padding-top: 120px;
+  transition: 0.3s;
+}
+
+/* =========================
+   TOP NAV
+========================= */
+.top-nav {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: min(1000px, 92%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 12px 18px;
+  border-radius: 999px;
+
+  background: var(--card);
+  backdrop-filter: blur(25px);
+
+  border: 1px solid var(--border);
+  box-shadow: 0 20px 40px rgba(0,240,255,0.15);
+
+  z-index: 1000;
+}
+
+/* LOGO */
+.logo {
+  font-family: "Space Grotesk";
+  font-size: 20px;
+  font-weight: 700;
+  background: linear-gradient(90deg,#00f0ff,#a855f7);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* =========================
+   NAV ACTIONS
+========================= */
+.nav-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* INPUT */
+.nav-actions input {
+  background: transparent;
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  border-radius: 999px;
+  color: var(--text);
+  outline: none;
+}
+
+.nav-actions input::placeholder {
+  color: rgba(255,255,255,0.5);
+}
+
+/* =========================
+   SELECT (FIXED)
+========================= */
+.nav-actions select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--text);
+
+  padding: 8px 30px 8px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+/* Dropdown options fix */
+.nav-actions select option {
+  background: #020617;
+  color: #e0e3e5;
+}
+
+/* custom arrow */
+.nav-actions select {
+  background-image: url("data:image/svg+xml;utf8,<svg fill='%23aaa' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+}
+
+/* =========================
+   BUTTON
+========================= */
+.nav-actions button {
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 8px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-actions button:hover {
+  transform: scale(1.05);
+}
+
+/* =========================
+   HERO
+========================= */
+.hero {
+  text-align: center;
+  padding: 80px 20px 40px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-family: "Space Grotesk";
+}
+
+.hero span {
+  background: linear-gradient(90deg,#00f0ff,#a855f7);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.hero p {
+  margin-top: 10px;
+  opacity: 0.7;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* =========================
+   GRID
+========================= */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* =========================
+   CARD
+========================= */
+.country-card {
+  border-radius: 24px;
+  overflow: hidden;
+
+  background: var(--card);
+  backdrop-filter: blur(20px);
+
+  border: 1px solid var(--border);
+
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.country-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  border-color: var(--accent);
+}
+
+.country-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.card-body h3 {
+  font-family: "Space Grotesk";
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.card-body p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* =========================
+   LOADING
+========================= */
+.loading {
+  text-align: center;
+  padding: 40px;
+  opacity: 0.7;
+}
+
+/* =========================
+   MOBILE
+========================= */
+@media (max-width: 600px) {
+  .top-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+}

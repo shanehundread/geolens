@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0sqk9qUAj/c=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Shane\\Geolens_trial\\GeoLens.Api\\Backend\\GeoLens.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Shane\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.7\\microsoft.aspnetcore.openapi.8.0.7.nupkg.sha512",
+    "C:\\Users\\Shane\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512"
+  ],
+  "logs": []
+}

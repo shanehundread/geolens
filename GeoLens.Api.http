@@ -1,0 +1,6 @@
+@GeoLens.Api_HostAddress = http://localhost:5130
+
+GET {{GeoLens.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

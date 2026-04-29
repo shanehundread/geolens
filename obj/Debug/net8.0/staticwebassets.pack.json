@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Shane\\Geolens_trial\\GeoLens.Api\\Backend\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Shane\\Geolens_trial\\GeoLens.Api\\Backend\\wwwroot\\detail.html",
+      "PackagePath": "staticwebassets\\detail.html"
+    },
+    {
+      "Id": "C:\\Users\\Shane\\Geolens_trial\\GeoLens.Api\\Backend\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Shane\\Geolens_trial\\GeoLens.Api\\Backend\\wwwroot\\js\\app.js",
+      "PackagePath": "staticwebassets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\Shane\\Geolens_trial\\GeoLens.Api\\Backend\\wwwroot\\js\\countries.js",
+      "PackagePath": "staticwebassets\\js\\countries.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GeoLens.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GeoLens.Api.props",
+      "PackagePath": "build\\GeoLens.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GeoLens.Api.props",
+      "PackagePath": "buildMultiTargeting\\GeoLens.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GeoLens.Api.props",
+      "PackagePath": "buildTransitive\\GeoLens.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
