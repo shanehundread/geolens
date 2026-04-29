@@ -1,6 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
 
-// IMPORTANT for Docker
+// IMPORTANT for Docker / Render
 builder.WebHost.UseUrls("http://0.0.0.0:8080");
 
 builder.Services.AddHttpClient();
@@ -17,6 +17,10 @@ builder.Services.AddCors(options =>
 var app = builder.Build();
 
 app.UseCors("AllowFrontend");
+
+// 🔥 THIS IS WHAT YOU WERE MISSING (FRONTEND SUPPORT)
+app.UseDefaultFiles();   // serves index.html automatically
+app.UseStaticFiles();    // allows wwwroot files to load
 
 app.MapControllers();
 
